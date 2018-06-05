@@ -7,6 +7,7 @@ class Register extends Component {
         this.state = {
             current: false, //切换手机跟邮箱
             number:"",//手机号
+            mail:"",//邮箱
             verifyCode:"",//验证码
             password:"",//密码
             password1:""//确认密码
@@ -31,6 +32,12 @@ class Register extends Component {
         let value = e.target.value;
         this.setState({number: value})
     }
+
+    mail(e){
+        let value = e.target.value;
+        this.setState({mail: value})
+    }
+
 
     verifyCode(e){
         let value = e.target.value;
@@ -73,19 +80,19 @@ class Register extends Component {
                     <div className="Register_main">
                         <div className="main_input">
                             <label htmlFor="">手机号</label>
-                            <input type="text" placeholder="请输入您的手机号码" value={this.state.number} onChange={this.number}/>
+                            <input type="text" placeholder="请输入您的手机号码" value={this.state.number || ''} onChange={this.number}/>
                         </div>
                         <div className="main_input">
                             <label htmlFor="">验证码</label>
-                            <input type="text" placeholder="验证码" value={this.state.verifyCode} onChange={this.verifyCode}/>
+                            <input type="text" placeholder="验证码" value={this.state.verifyCode || ''} onChange={this.verifyCode}/>
                         </div>
                         <div className="main_input">
                             <label htmlFor="">设置密码</label>
-                            <input type="text" placeholder="请输入您的密码" value={this.state.password} onChange={this.password}/>
+                            <input type="text" placeholder="请输入您的密码" value={this.state.password || ''} onChange={this.password}/>
                         </div>
                         <div className="main_input">
                             <label htmlFor="">确认密码</label>
-                            <input type="text" placeholder="请确认您的密码" value={this.state.password1} onChange={this.password1}/>
+                            <input type="text" placeholder="请确认您的密码" value={this.state.password1 || ''} onChange={this.password1}/>
                         </div>
                         <div className="main_input protocol">
                             <input type="checkbox" name="items" value=""/>
@@ -121,19 +128,19 @@ class Register extends Component {
                     <div className="Register_main">
                         <div className="main_input">
                             <label htmlFor="">邮箱</label>
-                            <input type="text" placeholder="请输入您的邮箱账号"/>
+                            <input type="text" placeholder="请输入您的邮箱账号" value={this.state.mail || ''} onChange={this.mail}/>
                         </div>
                         <div className="main_input">
                             <label htmlFor="">验证码</label>
-                            <input type="text" placeholder="请输入您的验证码"/>
+                            <input type="text" placeholder="请输入您的验证码"  value={this.state.verifyCode || ''} onChange={this.verifyCode}/>
                         </div>
                         <div className="main_input">
                             <label htmlFor="">设置密码</label>
-                            <input type="text" placeholder="请设置您的密码"/>
+                            <input type="text" placeholder="请设置您的密码" value={this.state.password || ''} onChange={this.password}/>
                         </div>
                         <div className="main_input">
                             <label htmlFor="">确认密码</label>
-                            <input type="text" placeholder="请确认您的密码"/>
+                            <input type="text" placeholder="请确认您的密码" value={this.state.password1 || ''} onChange={this.password1}/>
                         </div>
                         <div className="main_input protocol">
                             <input type="checkbox" name="items" value=""/>
