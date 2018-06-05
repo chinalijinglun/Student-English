@@ -1,0 +1,79 @@
+.login{
+
+}
+.loginMain{
+    height: 600px;
+    width: 100%;
+    background: url('../../images/bj01.jpg') 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+}
+.login-input{
+    float: right;
+    width: 370px;
+    height: 450px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin:75px 160px 75px 0;
+}
+.login-input-main>*{
+    margin: 10px 0;
+}
+.login-input-main{
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 30px;
+}
+.login-input-head{
+    height: 80px;
+    line-height: 80px;
+    font-size: 22px;
+    color: #333333;
+    border-bottom: 3px solid #FF8200;
+    padding-left: 32px;
+}
+.login-style{
+    width: 290px;
+    height: 52px;
+    background: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.login-information{
+    font-size: 14px;
+    overflow: hidden;
+    color: #666666;
+    cursor: pointer;
+}
+.login-information span:first-child{
+    float: left;
+}
+.login-information span:last-child{
+    float: right;
+}
+.login-button button{
+    background: #FF8200;
+    border-radius: 5px;
+    width: 300px;
+    height: 52px;
+    font-size: 18px;
+    color: #FFFFFF;
+    outline: none;
+    cursor: pointer;
+}
+.login-message{
+    font-size: 14px;
+    color: #FF8200;
+    text-align: center;
+    cursor: pointer;
+}
+.login-message img{
+    width: 9px;
+    height: 12px;
+}

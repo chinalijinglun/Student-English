@@ -1,0 +1,21 @@
+.left-side{
+    width: 180px;
+    min-height: 353px;
+    height: auto;
+    background: #FFFFFF;
+    margin-right: 20px;
+    padding-top: 7px;
+}
+.left-side ul{
+    list-style: none;
+    padding-left: 20px;
+}
+.left-side ul li{
+    height: 40px;
+    line-height: 40px;
+    margin: 15px 0;
+}
+.left-side ul li img{
+    vertical-align: sub;
+    margin: 0 15px;
+ }

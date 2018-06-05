@@ -1,0 +1,79 @@
+.Register{
+    width: 830px;
+    height: 600px;
+    margin: 83px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.Register_header{
+    height: 86px;
+    line-height: 86px;
+    padding-left: 50px;
+    padding-right: 20px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.header_left{
+    font-size: 22px;
+    color: #333333;
+    float: left;
+    line-height: 83px;
+    border-bottom: 3px #FF8200 solid;
+}
+.header_right{
+    font-size: 14px;
+    color: #FF8200;
+    float: right;
+    text-decoration: underline;
+}
+.header_right span{
+    cursor: pointer;
+}
+.Register_main{
+    padding-top: 20px;
+}
+.main_input{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.main_input label{
+    width: 100px;
+    font-size: 16px;
+    color: #333333;
+    text-align: right;
+    display: inline-block;
+    margin-right: 15px;
+}
+.main_input input[type='text']{
+    width: 382px;
+    height: 52px;
+    background: #FFFFFF;
+    border: 1px solid #DCDCDC;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 10px;
+}
+.protocol{
+    font-size: 14px;
+    color: #666666;
+}
+.protocol span{
+    color: #FF8200;
+}
+.Register_now input[type='button']{
+    width: 392px;
+    height: 52px;
+    background: #FF8200;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+}
+.login_in{
+    font-size: 14px;
+    color: #333333;
+}
+.login_in span{
+    color: #FF8200;
+    text-decoration: underline;
+}
