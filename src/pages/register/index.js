@@ -158,9 +158,7 @@ class Register extends Component {
 
     render() {
         return (
-            <div>
-                {this.renderLogin()}
-            </div>
+                this.renderLogin()
         );
     }
 }
