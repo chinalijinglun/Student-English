@@ -5,6 +5,7 @@
     background: #FFFFFF;
     margin-right: 20px;
     padding-top: 7px;
+    float: left;
 }
 .left-side ul{
     list-style: none;

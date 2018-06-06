@@ -1,0 +1,29 @@
+.right-side{
+    float: left;
+    width: 1000px;
+    background: white;
+}
+.center-header{
+    width: 800px;
+    height: 190px;
+    background: white;
+    margin-bottom: 20px;
+}
+.center-header-left img{
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    margin: 25px;
+}
+.center-header-left{
+    float: left;
+}
+.center-header-right{
+    float: left;
+}
+.center-header-right span{
+    display: block;
+}
+.center-header-right span:first-child{
+    margin-top: 37px;
+}
